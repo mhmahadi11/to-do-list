@@ -39,7 +39,7 @@ function  addTaskList(e){
 //Define remove function
 function removeItem(e){
     if(e.target.hasAttribute('href')) {
-       if(confirm('Are you want to remove this?')){
+       if(confirm('Do you want to remove this?')){
            let ele = e.target.parentElement;
            ele.remove();
 
